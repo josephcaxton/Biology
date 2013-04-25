@@ -26,15 +26,15 @@ static NSString* const kAnalyticsAccountId = @"UA-40193785-1";
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
     //Remove the my admin tabbarItem ..
-  /* NSMutableArray *viewControllers = [NSMutableArray arrayWithArray:tabBarController.viewControllers];
+   NSMutableArray *viewControllers = [NSMutableArray arrayWithArray:tabBarController.viewControllers];
     [viewControllers removeObjectAtIndex:5];
     [viewControllers removeObjectAtIndex:2];
-    [tabBarController setViewControllers:viewControllers]; */
+    [tabBarController setViewControllers:viewControllers]; 
 
     
     //Copy database over if the database is not there on the device.Test
 	
-	//[self CopyDataBase];
+	[self CopyDataBase];
 	SecondThread = nil;
 	// Override point for customization after application launch.
 	NSManagedObjectContext *context =[self managedObjectContext];

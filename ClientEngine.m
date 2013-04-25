@@ -285,7 +285,7 @@ int ToReviewQuestions = 0;
 		
 		//Exclude Descriptive Question Marks
 		NSString *Desc = [NSString stringWithFormat:@"%@",[QI.QuestionHeader1.QuestionTemplate valueForKey:@"Description"]];
-		if(![Desc isEqualToString:@"Essay"]){
+		if(![Desc isEqualToString:@"Descriptive"]){
 		
 		Counter	+= [[QI AllocatedMark]intValue];
 			
@@ -625,7 +625,7 @@ int ToReviewQuestions = 0;
 		[M_view release];
 		
 	}
-	else if([TemplateType isEqualToString:@"Essay"]){
+	else if([TemplateType isEqualToString:@"Descriptive"]){
 		
 		DescriptiveType *D_view =[[DescriptiveType alloc] initWithNibName:nil bundle:nil];
 		
