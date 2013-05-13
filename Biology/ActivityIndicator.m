@@ -29,8 +29,8 @@
 		[self addSubview:Activity];
 		[self addSubview:lbl];
 		
-		[Activity release];
-		[lbl release];
+		
+		
 		
 											 
     }
@@ -44,10 +44,6 @@
     // Drawing code.
 }
 */
-
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 @end

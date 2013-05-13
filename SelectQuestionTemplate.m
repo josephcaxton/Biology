@@ -30,21 +30,20 @@
     label.font = [UIFont fontWithName:@"Helvetica-Bold" size:24.0];
     self.navigationItem.titleView = label;
     [label sizeToFit];
-    [label release];
+    
     
     [self.tableView setBackgroundView:nil];
     NSString *BackImagePath = [[NSBundle mainBundle] pathForResource:@"Background" ofType:@"png"];
 	UIImage *BackImage = [[UIImage alloc] initWithContentsOfFile:BackImagePath];
     self.tableView.backgroundColor = [UIColor colorWithPatternImage:BackImage];
-    [BackImage release];
-    
+        
 
 	
 	if (UserConfigure) {
 		
 		UIBarButtonItem *Back = [[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStylePlain target:self action:@selector(Back:)];
 		self.navigationItem.leftBarButtonItem = Back;
-		[Back release];
+		
 	}
 	
 	
@@ -66,7 +65,7 @@
 		
 		[DataError show];
 		
-		[DataError release];
+		
 		NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
 		
 		
@@ -130,7 +129,7 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier];
     }
      
 	if (UserConfigure) {
@@ -221,10 +220,10 @@
 		aFetchedResultsController.delegate = self;
 		self.fetchedResultsController = aFetchedResultsController;
 		
-		[aFetchedResultsController release];
-		[fetchRequest release];
-		[sortDescriptor release];
-		[sortDescriptors release];
+		
+		
+		
+		
 	}
 	
 	return fetchedResultsController;
@@ -277,7 +276,7 @@
 	//[self.navigationController popToViewController:[[self.navigationController viewControllers] objectAtIndex:0] animated:YES];
 	
 	[self.navigationController pushViewController:S_view animated:YES];
-	[S_view release];  
+	
 	
 	
 	}
@@ -300,12 +299,6 @@
 }
 
 
-- (void)dealloc {
-	//[fetchedResultsController release];
-	[managedObjectContext release];
-	//[SelectedTemplate release];
-    [super dealloc];
-}
 
 
 @end
