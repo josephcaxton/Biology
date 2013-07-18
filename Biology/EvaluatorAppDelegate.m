@@ -18,10 +18,12 @@ static NSString* const kAnalyticsAccountId = @"UA-40193785-1";
 
 @synthesize window;
 @synthesize	tabBarController,splashView;
-@synthesize AllocatedMarks,Difficulty,Topic,TypeOfQuestion,DomainName,NumberOfQuestions,NumberOfQuestionsDisplayed,PossibleScores,ClientScores,buyScreen,SecondThread,m_facebook; 
+@synthesize AllocatedMarks,Difficulty,Topic,TypeOfQuestion,DomainName,NumberOfQuestions,NumberOfQuestionsDisplayed,PossibleScores,ClientScores,buyScreen,SecondThread,m_facebook,FinishTestNow; 
 
 #pragma mark -
 #pragma mark Application lifecycle
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
 	
@@ -72,6 +74,7 @@ static NSString* const kAnalyticsAccountId = @"UA-40193785-1";
 	NumberOfQuestionsDisplayed = [NSNumber numberWithInt: 0];
 	PossibleScores =[NSNumber numberWithInt: 0];
 	ClientScores = [NSNumber numberWithInt: 0];
+    FinishTestNow = NO;
 	
 	//Track tourches on TabBar
 	//UILongPressGestureRecognizer *gr = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(touched)];
@@ -121,12 +124,18 @@ static NSString* const kAnalyticsAccountId = @"UA-40193785-1";
 	NSString *MyAccessLevel = (NSString *)[[NSUserDefaults standardUserDefaults] objectForKey:AccessLevel];
 	//[[NSUserDefaults standardUserDefaults] setObject:@"5" forKey:@"AccessLevel"]; //For testing only
 	//[[NSUserDefaults standardUserDefaults] synchronize];
-	if (MyAccessLevel == nil || [MyAccessLevel intValue] == 1) {
+	if (MyAccessLevel == nil || [MyAccessLevel intValue] == 2) {
 		
-		NSDictionary *appDefaults  = [NSDictionary dictionaryWithObjectsAndKeys:@"2", AccessLevel, nil];
-		[[NSUserDefaults standardUserDefaults] registerDefaults:appDefaults];
+		[[NSUserDefaults standardUserDefaults] setObject:@"1" forKey:@"AccessLevel"];
 		[[NSUserDefaults standardUserDefaults] synchronize];
 	}
+    // We are changing pricing all those who have brought will have full access
+    if ([MyAccessLevel intValue] > 2) {
+		
+		[[NSUserDefaults standardUserDefaults] setObject:@"5" forKey:@"AccessLevel"];
+		[[NSUserDefaults standardUserDefaults] synchronize];
+	}
+
 	
 	// apple store transaction observer
 	//CustomStoreObserver *observer = [[CustomStoreObserver alloc] init];
@@ -577,6 +586,7 @@ static NSString* const kAnalyticsAccountId = @"UA-40193785-1";
    // NSString *Raw_DeviceToken = [NSString stringWithFormat:@"%@",deviceToken];
     
     //NSString *DeviceUDID = [NSString stringWithFormat:@"%@",[UIDevice currentDevice].uniqueIdentifier];
+      if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"6.0")){
       NSString *DeviceUDID = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
     
     NSString *DeviceTokenRemoveCh1 = [[deviceToken description] stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"<>"]];
@@ -599,7 +609,7 @@ static NSString* const kAnalyticsAccountId = @"UA-40193785-1";
     } 
 
     
-
+      }
     
     
    /*  NSString *Username = [NSString stringWithFormat:@"r_keay@yahoo.com"];

@@ -15,8 +15,10 @@
 #import "lk_QuestionTemplate.h"
 #import "QuestionItems.h"
 #import "QuestionHeader.h"
+#import "MBProgressHUD.h"
 
-@interface ClientEngine : UITableViewController <NSFetchedResultsControllerDelegate> {
+
+@interface ClientEngine : UITableViewController <NSFetchedResultsControllerDelegate,MBProgressHUDDelegate> {
 	
 	
 	
@@ -61,6 +63,8 @@
 	NSMutableArray *NumberCounter;  // Just for numbering
 	NSArray *CollectedObjects;
 	NSMutableArray *SelectedArrays;
+    
+    MBProgressHUD *HUD;
 	
 	
 
@@ -98,6 +102,7 @@
 @property (nonatomic, retain) NSMutableArray *NumberCounter;
 @property (nonatomic, retain) NSArray *CollectedObjects ;
 @property (nonatomic, retain) NSMutableArray *SelectedArrays;
+@property (nonatomic, strong)  MBProgressHUD *HUD;
 
 - (NSManagedObjectContext *)ManagedObjectContext;
 
