@@ -1005,7 +1005,6 @@
 		7C5E86C9171D4DF000C7409D /* 895.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E82ED171D4DEC00C7409D /* 895.pdf */; };
 		7C5E86CA171D4DF000C7409D /* 896.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E82EE171D4DEC00C7409D /* 896.pdf */; };
 		7C5E86CB171D4DF000C7409D /* 897.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E82EF171D4DEC00C7409D /* 897.pdf */; };
-		7C5E86CC171D4DF000C7409D /* 898.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E82F0171D4DEC00C7409D /* 898.pdf */; };
 		7C5E86CD171D4DF000C7409D /* 899.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E82F1171D4DED00C7409D /* 899.pdf */; };
 		7C5E86CE171D4DF000C7409D /* 900.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E82F2171D4DED00C7409D /* 900.pdf */; };
 		7C5E86CF171D4DF000C7409D /* 901.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E82F3171D4DED00C7409D /* 901.pdf */; };
@@ -1113,6 +1112,7 @@
 		7C5E8735171D4DF000C7409D /* 1005.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E8359171D4DEE00C7409D /* 1005.pdf */; };
 		7C65D41B1794021900912FB8 /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7C65D41A1794013B00912FB8 /* iosBiology.sqlite */; };
 		7C65D42A17941E4B00912FB8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C65D42917941E3D00912FB8 /* MBProgressHUD.m */; };
+		7C7A315817A12A790075AB42 /* 898.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7A315717A12A790075AB42 /* 898.pdf */; };
 		7C9571CF1792B0A1003789FB /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C95717F1792B041003789FB /* libCorePlot-CocoaTouch.a */; };
 		7C9571DF1792B17D003789FB /* report_problem40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9571D51792B17D003789FB /* report_problem40.png */; };
 		7C9571E01792B17D003789FB /* start_test40.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C9571D61792B17D003789FB /* start_test40.png */; };
@@ -2151,7 +2151,6 @@
 		7C5E82ED171D4DEC00C7409D /* 895.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 895.pdf; sourceTree = "<group>"; };
 		7C5E82EE171D4DEC00C7409D /* 896.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 896.pdf; sourceTree = "<group>"; };
 		7C5E82EF171D4DEC00C7409D /* 897.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 897.pdf; sourceTree = "<group>"; };
-		7C5E82F0171D4DEC00C7409D /* 898.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 898.pdf; sourceTree = "<group>"; };
 		7C5E82F1171D4DED00C7409D /* 899.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 899.pdf; sourceTree = "<group>"; };
 		7C5E82F2171D4DED00C7409D /* 900.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 900.pdf; sourceTree = "<group>"; };
 		7C5E82F3171D4DED00C7409D /* 901.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 901.pdf; sourceTree = "<group>"; };
@@ -2318,6 +2317,7 @@
 		7C65D41A1794013B00912FB8 /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		7C65D42817941E3D00912FB8 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7C65D42917941E3D00912FB8 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		7C7A315717A12A790075AB42 /* 898.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 898.pdf; sourceTree = "<group>"; };
 		7C95717F1792B041003789FB /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libCorePlot-CocoaTouch.a"; sourceTree = "<group>"; };
 		7C9571801792B041003789FB /* PlotConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlotConstants.h; sourceTree = "<group>"; };
 		7C9571811792B041003789FB /* PlotConstants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlotConstants.m; sourceTree = "<group>"; };
@@ -3577,7 +3577,7 @@
 				7C5E82ED171D4DEC00C7409D /* 895.pdf */,
 				7C5E82EE171D4DEC00C7409D /* 896.pdf */,
 				7C5E82EF171D4DEC00C7409D /* 897.pdf */,
-				7C5E82F0171D4DEC00C7409D /* 898.pdf */,
+				7C7A315717A12A790075AB42 /* 898.pdf */,
 				7C5E82F1171D4DED00C7409D /* 899.pdf */,
 				7C5E82F2171D4DED00C7409D /* 900.pdf */,
 				7C5E82F3171D4DED00C7409D /* 901.pdf */,
@@ -4825,7 +4825,6 @@
 				7C5E86C9171D4DF000C7409D /* 895.pdf in Resources */,
 				7C5E86CA171D4DF000C7409D /* 896.pdf in Resources */,
 				7C5E86CB171D4DF000C7409D /* 897.pdf in Resources */,
-				7C5E86CC171D4DF000C7409D /* 898.pdf in Resources */,
 				7C5E86CD171D4DF000C7409D /* 899.pdf in Resources */,
 				7C5E86CE171D4DF000C7409D /* 900.pdf in Resources */,
 				7C5E86CF171D4DF000C7409D /* 901.pdf in Resources */,
@@ -5004,6 +5003,7 @@
 				7CE9EF0A1796CA3C00F94B81 /* Clear40.png in Resources */,
 				7CE9EF0B1796CA3C00F94B81 /* Continue40.png in Resources */,
 				7CE9EF0C1796CA3C00F94B81 /* StopTest40.png in Resources */,
+				7C7A315817A12A790075AB42 /* 898.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
