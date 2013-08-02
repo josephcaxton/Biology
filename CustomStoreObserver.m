@@ -62,6 +62,7 @@
 {
 	if (transaction.error.code != SKErrorPaymentCancelled)
 	{
+       // NSLog(@"%@",transaction.error.description);
 		UIAlertView *PaymentError = [[UIAlertView alloc] initWithTitle: @"Error On Payment" 
 															message: @"There has been an error completing your payment transaction, please try again" delegate: self 
 												  cancelButtonTitle: @"Ok" otherButtonTitles: nil];

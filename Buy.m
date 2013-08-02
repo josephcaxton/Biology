@@ -197,7 +197,7 @@ int dontShowPriceList = 0;
 			
 		}*/
         		
-		if ([AccessLevel intValue] == 5){
+		if ([AccessLevel intValue] > 2){
 			
 			UIAlertView *Alert = [[UIAlertView alloc] initWithTitle: @"You already have all our products" 
 															message: @"Press the Questions button to start" delegate: self 
@@ -378,37 +378,18 @@ int dontShowPriceList = 0;
 			switch (myTag) {
 				case 1:
                 {
-					SKPayment *payment1 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.250"];
+					SKPayment *payment1 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.1040"];
 					[[SKPaymentQueue defaultQueue] addPayment:payment1];
 					break;
                 }
 					
 				case 2:
                 {
-					SKPayment *payment2 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.500"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment2];
-					break;
-                }
-				case 3:
-                {
-					SKPayment *payment3 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.750"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment3];
-					
-					break;
-                }
-				case 4:
-                {
-					SKPayment *payment4 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.1040"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment4];
-					break;
-                }
-                case 5:
-                {
 					[[SKPaymentQueue defaultQueue] addTransactionObserver:observer];
                     [[SKPaymentQueue defaultQueue]restoreCompletedTransactions];
 					break;
                 }
-                
+				                
 					
 			}
 			
@@ -418,75 +399,20 @@ int dontShowPriceList = 0;
 			switch (myTag) {
 				case 1:
                 {
-					SKPayment *payment1 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.250To500"];
+					SKPayment *payment1 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.1040"];
 					[[SKPaymentQueue defaultQueue] addPayment:payment1];
-					
 					break;
                 }
 				case 2:
                 {
-					SKPayment *payment2 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.250To750"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment2];
-					
-					break;
-                }
-				case 3:
-                {
-					SKPayment *payment3 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.250To1040"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment3];
-					
-					break;
-                }
-                case 4:
-                {
 					[[SKPaymentQueue defaultQueue] addTransactionObserver:observer];
                     [[SKPaymentQueue defaultQueue]restoreCompletedTransactions];
 					break;
                 }
-					
+									
 			}
 			
-		case 3: 
-			
-			switch (myTag) {
-				case 1:
-                {
-					SKPayment *payment1 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.500To750"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment1];
-					
-					break;
-                }
-				case 2:
-                {
-					SKPayment *payment2 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.500To1040"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment2];
-					
-					break;
-                }
-                case 3:
-                {
-					[[SKPaymentQueue defaultQueue] addTransactionObserver:observer];
-                    [[SKPaymentQueue defaultQueue]restoreCompletedTransactions];
-					break;
-                }
-                			}
-			
-		case 4:
-			switch (myTag) {
-				case 1:
-                {
-					SKPayment *payment1 = [SKPayment paymentWithProductIdentifier:@"com.LearnersCloud.iEvaluatorforIpad.biology.750To1040"];
-					[[SKPaymentQueue defaultQueue] addPayment:payment1];
-					break;
-                }
-                case 2:
-                {
-					[[SKPaymentQueue defaultQueue] addTransactionObserver:observer];
-                    [[SKPaymentQueue defaultQueue]restoreCompletedTransactions];
-					break;
-                }
-			}
-            
+		            
  
 			
 		

@@ -5162,8 +5162,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Biology/Biology-Prefix.pch";
 				INFOPLIST_FILE = "Biology/Biology-Info.plist";
@@ -5175,8 +5175,8 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "5476A335-909C-481B-A3E9-BFA8CF0C4F05";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5476A335-909C-481B-A3E9-BFA8CF0C4F05";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
