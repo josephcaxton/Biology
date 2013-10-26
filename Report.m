@@ -24,7 +24,7 @@
 	
 	[super viewDidLoad];
 	
-	UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0,0,185,55)];
+	UILabel * label = [[UILabel alloc] initWithFrame:CGRectMake(0,0,self.navigationItem.titleView.frame.origin.x,55)];
     label.textColor = [UIColor whiteColor];
     label.backgroundColor = [UIColor clearColor];
     label.text = self.navigationItem.title;
