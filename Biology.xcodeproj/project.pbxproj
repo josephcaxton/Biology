@@ -1070,12 +1070,12 @@
 		7C5E8733171D4DF000C7409D /* 1001.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E8357171D4DEE00C7409D /* 1001.pdf */; };
 		7C5E8734171D4DF000C7409D /* 1003.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E8358171D4DEE00C7409D /* 1003.pdf */; };
 		7C5E8735171D4DF000C7409D /* 1005.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E8359171D4DEE00C7409D /* 1005.pdf */; };
-		7C65D41B1794021900912FB8 /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7C65D41A1794013B00912FB8 /* iosBiology.sqlite */; };
 		7C65D42A17941E4B00912FB8 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C65D42917941E3D00912FB8 /* MBProgressHUD.m */; };
 		7C7A315817A12A790075AB42 /* 898.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7A315717A12A790075AB42 /* 898.pdf */; };
 		7C9571CF1792B0A1003789FB /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C95717F1792B041003789FB /* libCorePlot-CocoaTouch.a */; };
 		7C9571FC1792B1ED003789FB /* LocalReporting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9571D11792B159003789FB /* LocalReporting.m */; };
 		7C97E2C0181BD3F50063F247 /* 510.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C97E2BF181BD3F50063F247 /* 510.pdf */; };
+		7CA25EE5182D1E9C00193A4C /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7CA25EE4182D1E7F00193A4C /* iosBiology.sqlite */; };
 		7CA9F74117FDA13E0096579E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA9F74017FDA13E0096579E /* Images.xcassets */; };
 		7CF84C4A173FB9B400C87811 /* SelectNumberofQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF84C45173FB79400C87811 /* SelectNumberofQuestionsViewController.m */; };
 		7CF84C4B173FB9B400C87811 /* TrailerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF84C47173FB79400C87811 /* TrailerPlayer.m */; };
@@ -2214,7 +2214,6 @@
 		7C5E877B171D4F6000C7409D /* DBVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBVersion.m; sourceTree = "<group>"; };
 		7C5E877C171D4F6000C7409D /* Answers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Answers.h; sourceTree = "<group>"; };
 		7C5E877D171D4F6000C7409D /* Answers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Answers.m; sourceTree = "<group>"; };
-		7C65D41A1794013B00912FB8 /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		7C65D42817941E3D00912FB8 /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		7C65D42917941E3D00912FB8 /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		7C7A315717A12A790075AB42 /* 898.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 898.pdf; sourceTree = "<group>"; };
@@ -2301,6 +2300,7 @@
 		7C9571D01792B159003789FB /* LocalReporting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalReporting.h; sourceTree = "<group>"; };
 		7C9571D11792B159003789FB /* LocalReporting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalReporting.m; sourceTree = "<group>"; };
 		7C97E2BF181BD3F50063F247 /* 510.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 510.pdf; sourceTree = "<group>"; };
+		7CA25EE4182D1E7F00193A4C /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		7CA9F74017FDA13E0096579E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Biology/Images.xcassets; sourceTree = "<group>"; };
 		7CA9F74217FDA1BC0096579E /* Biology.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Biology.entitlements; path = Biology/Biology.entitlements; sourceTree = "<group>"; };
 		7CF84C44173FB79400C87811 /* SelectNumberofQuestionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectNumberofQuestionsViewController.h; sourceTree = "<group>"; };
@@ -3515,7 +3515,7 @@
 				7C5E8357171D4DEE00C7409D /* 1001.pdf */,
 				7C5E8358171D4DEE00C7409D /* 1003.pdf */,
 				7C5E8359171D4DEE00C7409D /* 1005.pdf */,
-				7C65D41A1794013B00912FB8 /* iosBiology.sqlite */,
+				7CA25EE4182D1E7F00193A4C /* iosBiology.sqlite */,
 				7C1B0B53171D555F00305C23 /* DescriptiveAnswers.xml */,
 				7C1B0B54171D555F00305C23 /* Results.xml */,
 				7C1B0B55171D555F00305C23 /* AttributionIpad.pdf */,
@@ -3773,7 +3773,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C65D41B1794021900912FB8 /* iosBiology.sqlite in Resources */,
+				7CA25EE5182D1E9C00193A4C /* iosBiology.sqlite in Resources */,
 				7C5E7F2C171D4C0B00C7409D /* InfoPlist.strings in Resources */,
 				7C5E835A171D4DEE00C7409D /* 4.pdf in Resources */,
 				7C5E835B171D4DEE00C7409D /* 5.pdf in Resources */,
