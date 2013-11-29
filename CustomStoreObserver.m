@@ -127,7 +127,7 @@
 		
 	}
 	
-	else if ([productIdentifier isEqualToString:@"com.LearnersCloud.iEvaluatorforIpad.biology.1040"])   
+	else if ([productIdentifier isEqualToString:@"com.LearnersCloud.iEvaluatorforIpad.biology.1000"])
 		
 	{
 		[[NSUserDefaults standardUserDefaults] setObject:@"5" forKey:@"AccessLevel"];	 
@@ -150,7 +150,7 @@
 		
 	}
 	
-	else if ([productIdentifier isEqualToString:@"com.LearnersCloud.iEvaluatorforIpad.biology.250To1040"])
+	else if ([productIdentifier isEqualToString:@"com.LearnersCloud.iEvaluatorforIpad.biology.250To1000"])
 	{
 		
 		[[NSUserDefaults standardUserDefaults] setObject:@"5" forKey:@"AccessLevel"];

@@ -201,7 +201,7 @@ int dontShowPriceList = 0;
 			
 		}*/
         		
-		if ([AccessLevel intValue] > 2){
+		if ([AccessLevel intValue] == 5){
 			
 			UIAlertView *Alert = [[UIAlertView alloc] initWithTitle: @"You already have all our products" 
 															message: @"Press the Questions button to start" delegate: self 
