@@ -67,7 +67,6 @@
 		7C1B0B8B171D5EC800305C23 /* libfacebook_ios_sdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E7F73171D4D5A00C7409D /* libfacebook_ios_sdk.a */; };
 		7C1B0B8C171D5EC800305C23 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E7F7C171D4D7F00C7409D /* libGoogleAnalytics.a */; };
 		7C1B0B90171D6B1B00305C23 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C1B0B50171D510D00305C23 /* MainWindow.xib */; };
-		7C1B0B9A171D739000305C23 /* Evaluator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7C1B0B97171D739000305C23 /* Evaluator.xcdatamodeld */; };
 		7C5E7F22171D4C0A00C7409D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E7F21171D4C0A00C7409D /* UIKit.framework */; };
 		7C5E7F24171D4C0A00C7409D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E7F23171D4C0A00C7409D /* Foundation.framework */; };
 		7C5E7F26171D4C0B00C7409D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C5E7F25171D4C0A00C7409D /* CoreGraphics.framework */; };
@@ -1075,10 +1074,13 @@
 		7C9571CF1792B0A1003789FB /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C95717F1792B041003789FB /* libCorePlot-CocoaTouch.a */; };
 		7C9571FC1792B1ED003789FB /* LocalReporting.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C9571D11792B159003789FB /* LocalReporting.m */; };
 		7C97E2C0181BD3F50063F247 /* 510.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C97E2BF181BD3F50063F247 /* 510.pdf */; };
-		7CA25EE5182D1E9C00193A4C /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 7CA25EE4182D1E7F00193A4C /* iosBiology.sqlite */; };
 		7CA9F74117FDA13E0096579E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA9F74017FDA13E0096579E /* Images.xcassets */; };
 		7CF84C4A173FB9B400C87811 /* SelectNumberofQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF84C45173FB79400C87811 /* SelectNumberofQuestionsViewController.m */; };
 		7CF84C4B173FB9B400C87811 /* TrailerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF84C47173FB79400C87811 /* TrailerPlayer.m */; };
+		CD99FFB2189D0D5700210319 /* Evaluator 2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = CD99FFB1189D0D5700210319 /* Evaluator 2.xcdatamodel */; };
+		CDF97086189D2AA000E7FE86 /* Evaluator 2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF97084189D2AA000E7FE86 /* Evaluator 2.xcdatamodeld */; };
+		CDF9708A189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF97089189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m */; };
+		CDF9708C189E70E300E7FE86 /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CDF9708B189E709F00E7FE86 /* iosBiology.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1128,10 +1130,7 @@
 		7C1B0B54171D555F00305C23 /* Results.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Results.xml; sourceTree = "<group>"; };
 		7C1B0B55171D555F00305C23 /* AttributionIpad.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = AttributionIpad.pdf; sourceTree = "<group>"; };
 		7C1B0B56171D555F00305C23 /* copyrightlicense_agreement.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = copyrightlicense_agreement.pdf; sourceTree = "<group>"; };
-		7C1B0B89171D5E8200305C23 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAnalytics.a; path = ../Chemistry/libGoogleAnalytics.a; sourceTree = "<group>"; };
-		7C1B0B98171D739000305C23 /* Evaluator 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 2.xcdatamodel"; sourceTree = "<group>"; };
-		7C1B0B99171D739000305C23 /* Evaluator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Evaluator.xcdatamodel; sourceTree = "<group>"; };
-		7C1B0B9D171D7E9C00305C23 /* Evaluator 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 3.xcdatamodel"; sourceTree = "<group>"; };
+		7C1B0B89171D5E8200305C23 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
 		7C5E7F1E171D4C0A00C7409D /* Biology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Biology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C5E7F21171D4C0A00C7409D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7C5E7F23171D4C0A00C7409D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -2300,13 +2299,18 @@
 		7C9571D01792B159003789FB /* LocalReporting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocalReporting.h; sourceTree = "<group>"; };
 		7C9571D11792B159003789FB /* LocalReporting.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalReporting.m; sourceTree = "<group>"; };
 		7C97E2BF181BD3F50063F247 /* 510.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 510.pdf; sourceTree = "<group>"; };
-		7CA25EE4182D1E7F00193A4C /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		7CA9F74017FDA13E0096579E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Biology/Images.xcassets; sourceTree = "<group>"; };
 		7CA9F74217FDA1BC0096579E /* Biology.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Biology.entitlements; path = Biology/Biology.entitlements; sourceTree = "<group>"; };
 		7CF84C44173FB79400C87811 /* SelectNumberofQuestionsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectNumberofQuestionsViewController.h; sourceTree = "<group>"; };
 		7CF84C45173FB79400C87811 /* SelectNumberofQuestionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectNumberofQuestionsViewController.m; sourceTree = "<group>"; };
 		7CF84C46173FB79400C87811 /* TrailerPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerPlayer.h; sourceTree = "<group>"; };
 		7CF84C47173FB79400C87811 /* TrailerPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerPlayer.m; sourceTree = "<group>"; };
+		CD99FFB1189D0D5700210319 /* Evaluator 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 2.xcdatamodel"; sourceTree = "<group>"; };
+		CDF97085189D2AA000E7FE86 /* Evaluator 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 2.xcdatamodel"; sourceTree = "<group>"; };
+		CDF97087189D2AE200E7FE86 /* Evaluator 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 3.xcdatamodel"; sourceTree = "<group>"; };
+		CDF97088189D92FE00E7FE86 /* NumberOfQuestionsToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfQuestionsToChoose.h; sourceTree = "<group>"; };
+		CDF97089189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfQuestionsToChoose.m; sourceTree = "<group>"; };
+		CDF9708B189E709F00E7FE86 /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2393,6 +2397,8 @@
 				7C1B0B44171D509600305C23 /* FillTheBlanks.m */,
 				7C1B0B45171D509600305C23 /* FillTheBlanks1.h */,
 				7C1B0B46171D509600305C23 /* FillTheBlanks1.m */,
+				CDF97088189D92FE00E7FE86 /* NumberOfQuestionsToChoose.h */,
+				CDF97089189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m */,
 			);
 			name = "Template Views";
 			sourceTree = "<group>";
@@ -3515,8 +3521,8 @@
 				7C5E8357171D4DEE00C7409D /* 1001.pdf */,
 				7C5E8358171D4DEE00C7409D /* 1003.pdf */,
 				7C5E8359171D4DEE00C7409D /* 1005.pdf */,
-				7CA25EE4182D1E7F00193A4C /* iosBiology.sqlite */,
 				7C1B0B53171D555F00305C23 /* DescriptiveAnswers.xml */,
+				CDF9708B189E709F00E7FE86 /* iosBiology.sqlite */,
 				7C1B0B54171D555F00305C23 /* Results.xml */,
 				7C1B0B55171D555F00305C23 /* AttributionIpad.pdf */,
 				7C1B0B56171D555F00305C23 /* copyrightlicense_agreement.pdf */,
@@ -3600,6 +3606,8 @@
 		7C5E8771171D4F3200C7409D /* Model and Model Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CDF97084189D2AA000E7FE86 /* Evaluator 2.xcdatamodeld */,
+				CD99FFB1189D0D5700210319 /* Evaluator 2.xcdatamodel */,
 				7C5E8772171D4F6000C7409D /* Topics.h */,
 				7C5E8773171D4F6000C7409D /* Topics.m */,
 				7C5E8774171D4F6000C7409D /* QuestionHeader.h */,
@@ -3612,7 +3620,6 @@
 				7C5E877B171D4F6000C7409D /* DBVersion.m */,
 				7C5E877C171D4F6000C7409D /* Answers.h */,
 				7C5E877D171D4F6000C7409D /* Answers.m */,
-				7C1B0B97171D739000305C23 /* Evaluator.xcdatamodeld */,
 			);
 			name = "Model and Model Classes";
 			sourceTree = "<group>";
@@ -3773,7 +3780,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CA25EE5182D1E9C00193A4C /* iosBiology.sqlite in Resources */,
+				CDF9708C189E70E300E7FE86 /* iosBiology.sqlite in Resources */,
 				7C5E7F2C171D4C0B00C7409D /* InfoPlist.strings in Resources */,
 				7C5E835A171D4DEE00C7409D /* 4.pdf in Resources */,
 				7C5E835B171D4DEE00C7409D /* 5.pdf in Resources */,
@@ -4815,6 +4822,7 @@
 				7C1B0B72171D5CC300305C23 /* QuestionHeader.m in Sources */,
 				7C1B0B73171D5CC300305C23 /* QuestionItems.m in Sources */,
 				7C1B0B74171D5CC300305C23 /* lk_QuestionTemplate.m in Sources */,
+				CDF9708A189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m in Sources */,
 				7C1B0B75171D5CC300305C23 /* DBVersion.m in Sources */,
 				7C1B0B76171D5CC300305C23 /* Answers.m in Sources */,
 				7C1B0B77171D5CC300305C23 /* CustomPickerDataSource_Num_Questions.m in Sources */,
@@ -4824,12 +4832,14 @@
 				7C1B0B7B171D5CC300305C23 /* MultipleChoiceSingleAnswer.m in Sources */,
 				7C1B0B7C171D5CC300305C23 /* MultipleChoiceSingleAnswer1.m in Sources */,
 				7C1B0B7D171D5CC300305C23 /* DescriptiveType.m in Sources */,
+				CDF97086189D2AA000E7FE86 /* Evaluator 2.xcdatamodeld in Sources */,
 				7C1B0B7E171D5CC300305C23 /* DescriptiveType1.m in Sources */,
 				7C1B0B7F171D5CC300305C23 /* TrueOrFalseYesOrNo.m in Sources */,
 				7C1B0B80171D5CC300305C23 /* TrueOrFalseYesOrNo1.m in Sources */,
 				7C1B0B81171D5CC300305C23 /* FillTheBlanks.m in Sources */,
 				7C1B0B82171D5CC300305C23 /* FillTheBlanks1.m in Sources */,
 				7C1B0B83171D5CC300305C23 /* Uploads.m in Sources */,
+				CD99FFB2189D0D5700210319 /* Evaluator 2.xcdatamodel in Sources */,
 				7C1B0B84171D5CC300305C23 /* EvaluatorAppDelegate.m in Sources */,
 				7C1B0B85171D5CC300305C23 /* ActivityIndicator.m in Sources */,
 				7C1B0B86171D5CC300305C23 /* TabBar.m in Sources */,
@@ -4837,7 +4847,6 @@
 				7C1B0B88171D5CC300305C23 /* Reachability.m in Sources */,
 				7C1B0B5B171D5C7600305C23 /* AdminDashBoard.m in Sources */,
 				7C5E7F2E171D4C0B00C7409D /* main.m in Sources */,
-				7C1B0B9A171D739000305C23 /* Evaluator.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4918,7 +4927,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Biology/Biology.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Biology/Biology-Prefix.pch";
 				INFOPLIST_FILE = "Biology/Biology-Info.plist";
@@ -4930,7 +4940,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3695B9B1-93B5-4A1A-9CD6-38AA8C528EF2";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -4944,8 +4954,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Biology/Biology.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Biology/Biology-Prefix.pch";
 				INFOPLIST_FILE = "Biology/Biology-Info.plist";
@@ -4957,7 +4967,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "80C2B083-4A05-42B8-A33C-9B9600E5BA5E";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "80C2B083-4A05-42B8-A33C-9B9600E5BA5E";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
@@ -4989,15 +4999,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		7C1B0B97171D739000305C23 /* Evaluator.xcdatamodeld */ = {
+		CDF97084189D2AA000E7FE86 /* Evaluator 2.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				7C1B0B9D171D7E9C00305C23 /* Evaluator 3.xcdatamodel */,
-				7C1B0B98171D739000305C23 /* Evaluator 2.xcdatamodel */,
-				7C1B0B99171D739000305C23 /* Evaluator.xcdatamodel */,
+				CDF97087189D2AE200E7FE86 /* Evaluator 3.xcdatamodel */,
+				CDF97085189D2AA000E7FE86 /* Evaluator 2.xcdatamodel */,
 			);
-			currentVersion = 7C1B0B98171D739000305C23 /* Evaluator 2.xcdatamodel */;
-			path = Evaluator.xcdatamodeld;
+			currentVersion = CDF97085189D2AA000E7FE86 /* Evaluator 2.xcdatamodel */;
+			path = "Evaluator 2.xcdatamodeld";
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

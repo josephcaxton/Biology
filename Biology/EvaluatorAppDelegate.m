@@ -468,7 +468,7 @@ static NSString* const kAnalyticsAccountId = @"UA-40193785-1";
     if (managedObjectModel != nil) {
         return managedObjectModel;
     }
-    NSString *modelPath = [[NSBundle mainBundle] pathForResource:@"Evaluator" ofType:@"momd"];
+    NSString *modelPath = [[NSBundle mainBundle] pathForResource:@"Evaluator 2" ofType:@"momd"];
     NSURL *modelURL = [NSURL fileURLWithPath:modelPath];
     managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];    
     return managedObjectModel;
@@ -557,6 +557,7 @@ static NSString* const kAnalyticsAccountId = @"UA-40193785-1";
  Returns the path to the application's Documents directory.
  */
 - (NSString *)applicationDocumentsDirectory {
+    
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
 }
 
