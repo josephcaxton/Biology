@@ -89,7 +89,6 @@
 		7C5E835D171D4DEE00C7409D /* 7.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E7F81171D4DE800C7409D /* 7.pdf */; };
 		7C5E835E171D4DEE00C7409D /* 8.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E7F82171D4DE800C7409D /* 8.pdf */; };
 		7C5E835F171D4DEE00C7409D /* 9.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E7F83171D4DE800C7409D /* 9.pdf */; };
-		7C5E8360171D4DEE00C7409D /* 11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E7F84171D4DE800C7409D /* 11.pdf */; };
 		7C5E8361171D4DEE00C7409D /* 12.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E7F85171D4DE800C7409D /* 12.pdf */; };
 		7C5E8362171D4DEE00C7409D /* 13.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E7F86171D4DE800C7409D /* 13.pdf */; };
 		7C5E8363171D4DEE00C7409D /* 14.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C5E7F87171D4DE800C7409D /* 14.pdf */; };
@@ -1077,10 +1076,11 @@
 		7CA9F74117FDA13E0096579E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA9F74017FDA13E0096579E /* Images.xcassets */; };
 		7CF84C4A173FB9B400C87811 /* SelectNumberofQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF84C45173FB79400C87811 /* SelectNumberofQuestionsViewController.m */; };
 		7CF84C4B173FB9B400C87811 /* TrailerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF84C47173FB79400C87811 /* TrailerPlayer.m */; };
+		CD4BEF8C18F0075700BA54AF /* 11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD4BEF8B18F0075700BA54AF /* 11.pdf */; };
 		CD99FFB2189D0D5700210319 /* Evaluator 2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = CD99FFB1189D0D5700210319 /* Evaluator 2.xcdatamodel */; };
+		CDD485EE18F032BF004FBF90 /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CDD485ED18F0329F004FBF90 /* iosBiology.sqlite */; };
 		CDF97086189D2AA000E7FE86 /* Evaluator 2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF97084189D2AA000E7FE86 /* Evaluator 2.xcdatamodeld */; };
 		CDF9708A189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF97089189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m */; };
-		CDF9708C189E70E300E7FE86 /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CDF9708B189E709F00E7FE86 /* iosBiology.sqlite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1175,7 +1175,6 @@
 		7C5E7F81171D4DE800C7409D /* 7.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 7.pdf; sourceTree = "<group>"; };
 		7C5E7F82171D4DE800C7409D /* 8.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 8.pdf; sourceTree = "<group>"; };
 		7C5E7F83171D4DE800C7409D /* 9.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 9.pdf; sourceTree = "<group>"; };
-		7C5E7F84171D4DE800C7409D /* 11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11.pdf; sourceTree = "<group>"; };
 		7C5E7F85171D4DE800C7409D /* 12.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 12.pdf; sourceTree = "<group>"; };
 		7C5E7F86171D4DE800C7409D /* 13.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 13.pdf; sourceTree = "<group>"; };
 		7C5E7F87171D4DE800C7409D /* 14.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 14.pdf; sourceTree = "<group>"; };
@@ -2305,12 +2304,13 @@
 		7CF84C45173FB79400C87811 /* SelectNumberofQuestionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectNumberofQuestionsViewController.m; sourceTree = "<group>"; };
 		7CF84C46173FB79400C87811 /* TrailerPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerPlayer.h; sourceTree = "<group>"; };
 		7CF84C47173FB79400C87811 /* TrailerPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerPlayer.m; sourceTree = "<group>"; };
+		CD4BEF8B18F0075700BA54AF /* 11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11.pdf; sourceTree = "<group>"; };
 		CD99FFB1189D0D5700210319 /* Evaluator 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 2.xcdatamodel"; sourceTree = "<group>"; };
+		CDD485ED18F0329F004FBF90 /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		CDF97085189D2AA000E7FE86 /* Evaluator 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 2.xcdatamodel"; sourceTree = "<group>"; };
 		CDF97087189D2AE200E7FE86 /* Evaluator 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 3.xcdatamodel"; sourceTree = "<group>"; };
 		CDF97088189D92FE00E7FE86 /* NumberOfQuestionsToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfQuestionsToChoose.h; sourceTree = "<group>"; };
 		CDF97089189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfQuestionsToChoose.m; sourceTree = "<group>"; };
-		CDF9708B189E709F00E7FE86 /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2539,7 +2539,7 @@
 				7C5E7F81171D4DE800C7409D /* 7.pdf */,
 				7C5E7F82171D4DE800C7409D /* 8.pdf */,
 				7C5E7F83171D4DE800C7409D /* 9.pdf */,
-				7C5E7F84171D4DE800C7409D /* 11.pdf */,
+				CD4BEF8B18F0075700BA54AF /* 11.pdf */,
 				7C5E7F85171D4DE800C7409D /* 12.pdf */,
 				7C5E7F86171D4DE800C7409D /* 13.pdf */,
 				7C5E7F87171D4DE800C7409D /* 14.pdf */,
@@ -3521,8 +3521,8 @@
 				7C5E8357171D4DEE00C7409D /* 1001.pdf */,
 				7C5E8358171D4DEE00C7409D /* 1003.pdf */,
 				7C5E8359171D4DEE00C7409D /* 1005.pdf */,
+				CDD485ED18F0329F004FBF90 /* iosBiology.sqlite */,
 				7C1B0B53171D555F00305C23 /* DescriptiveAnswers.xml */,
-				CDF9708B189E709F00E7FE86 /* iosBiology.sqlite */,
 				7C1B0B54171D555F00305C23 /* Results.xml */,
 				7C1B0B55171D555F00305C23 /* AttributionIpad.pdf */,
 				7C1B0B56171D555F00305C23 /* copyrightlicense_agreement.pdf */,
@@ -3780,7 +3780,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF9708C189E70E300E7FE86 /* iosBiology.sqlite in Resources */,
+				CDD485EE18F032BF004FBF90 /* iosBiology.sqlite in Resources */,
 				7C5E7F2C171D4C0B00C7409D /* InfoPlist.strings in Resources */,
 				7C5E835A171D4DEE00C7409D /* 4.pdf in Resources */,
 				7C5E835B171D4DEE00C7409D /* 5.pdf in Resources */,
@@ -3788,7 +3788,6 @@
 				7C5E835D171D4DEE00C7409D /* 7.pdf in Resources */,
 				7C5E835E171D4DEE00C7409D /* 8.pdf in Resources */,
 				7C5E835F171D4DEE00C7409D /* 9.pdf in Resources */,
-				7C5E8360171D4DEE00C7409D /* 11.pdf in Resources */,
 				7C5E8361171D4DEE00C7409D /* 12.pdf in Resources */,
 				7C5E8362171D4DEE00C7409D /* 13.pdf in Resources */,
 				7C5E8363171D4DEE00C7409D /* 14.pdf in Resources */,
@@ -4446,6 +4445,7 @@
 				7C5E85EF171D4DEF00C7409D /* 674.pdf in Resources */,
 				7C5E85F0171D4DEF00C7409D /* 675.pdf in Resources */,
 				7C5E85F1171D4DEF00C7409D /* 676.pdf in Resources */,
+				CD4BEF8C18F0075700BA54AF /* 11.pdf in Resources */,
 				7C5E85F2171D4DEF00C7409D /* 677.pdf in Resources */,
 				7C5E85F3171D4DEF00C7409D /* 678.pdf in Resources */,
 				7C5E85F4171D4DEF00C7409D /* 679.pdf in Resources */,
@@ -4940,7 +4940,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "F8B8F4F4-2AF2-4B28-BBC6-8DE281394EDC";
+				PROVISIONING_PROFILE = "DBD25696-6C7A-4EE5-B295-82F7FC28B8EA";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -4967,7 +4967,7 @@
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E961A5EE-396F-4D88-97B1-6D5B9521493D";
+				PROVISIONING_PROFILE = "73395603-8716-4CB7-B9F1-93BBC255D386";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
