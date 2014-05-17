@@ -1076,9 +1076,9 @@
 		7CA9F74117FDA13E0096579E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CA9F74017FDA13E0096579E /* Images.xcassets */; };
 		7CF84C4A173FB9B400C87811 /* SelectNumberofQuestionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF84C45173FB79400C87811 /* SelectNumberofQuestionsViewController.m */; };
 		7CF84C4B173FB9B400C87811 /* TrailerPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF84C47173FB79400C87811 /* TrailerPlayer.m */; };
+		CD421F581927887100EBC95C /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CD421F571927885700EBC95C /* iosBiology.sqlite */; };
 		CD4BEF8C18F0075700BA54AF /* 11.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CD4BEF8B18F0075700BA54AF /* 11.pdf */; };
 		CD99FFB2189D0D5700210319 /* Evaluator 2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = CD99FFB1189D0D5700210319 /* Evaluator 2.xcdatamodel */; };
-		CDD485EE18F032BF004FBF90 /* iosBiology.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = CDD485ED18F0329F004FBF90 /* iosBiology.sqlite */; };
 		CDF97086189D2AA000E7FE86 /* Evaluator 2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDF97084189D2AA000E7FE86 /* Evaluator 2.xcdatamodeld */; };
 		CDF9708A189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF97089189D92FE00E7FE86 /* NumberOfQuestionsToChoose.m */; };
 /* End PBXBuildFile section */
@@ -2304,9 +2304,9 @@
 		7CF84C45173FB79400C87811 /* SelectNumberofQuestionsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectNumberofQuestionsViewController.m; sourceTree = "<group>"; };
 		7CF84C46173FB79400C87811 /* TrailerPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrailerPlayer.h; sourceTree = "<group>"; };
 		7CF84C47173FB79400C87811 /* TrailerPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrailerPlayer.m; sourceTree = "<group>"; };
+		CD421F571927885700EBC95C /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		CD4BEF8B18F0075700BA54AF /* 11.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 11.pdf; sourceTree = "<group>"; };
 		CD99FFB1189D0D5700210319 /* Evaluator 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 2.xcdatamodel"; sourceTree = "<group>"; };
-		CDD485ED18F0329F004FBF90 /* iosBiology.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iosBiology.sqlite; sourceTree = "<group>"; };
 		CDF97085189D2AA000E7FE86 /* Evaluator 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 2.xcdatamodel"; sourceTree = "<group>"; };
 		CDF97087189D2AE200E7FE86 /* Evaluator 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Evaluator 3.xcdatamodel"; sourceTree = "<group>"; };
 		CDF97088189D92FE00E7FE86 /* NumberOfQuestionsToChoose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfQuestionsToChoose.h; sourceTree = "<group>"; };
@@ -3521,8 +3521,8 @@
 				7C5E8357171D4DEE00C7409D /* 1001.pdf */,
 				7C5E8358171D4DEE00C7409D /* 1003.pdf */,
 				7C5E8359171D4DEE00C7409D /* 1005.pdf */,
-				CDD485ED18F0329F004FBF90 /* iosBiology.sqlite */,
 				7C1B0B53171D555F00305C23 /* DescriptiveAnswers.xml */,
+				CD421F571927885700EBC95C /* iosBiology.sqlite */,
 				7C1B0B54171D555F00305C23 /* Results.xml */,
 				7C1B0B55171D555F00305C23 /* AttributionIpad.pdf */,
 				7C1B0B56171D555F00305C23 /* copyrightlicense_agreement.pdf */,
@@ -3780,7 +3780,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDD485EE18F032BF004FBF90 /* iosBiology.sqlite in Resources */,
+				CD421F581927887100EBC95C /* iosBiology.sqlite in Resources */,
 				7C5E7F2C171D4C0B00C7409D /* InfoPlist.strings in Resources */,
 				7C5E835A171D4DEE00C7409D /* 4.pdf in Resources */,
 				7C5E835B171D4DEE00C7409D /* 5.pdf in Resources */,
@@ -4927,8 +4927,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Biology/Biology.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Joseph caxton (99S98QLWW3)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Joseph caxton (99S98QLWW3)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Biology/Biology-Prefix.pch";
 				INFOPLIST_FILE = "Biology/Biology-Info.plist";
@@ -4938,9 +4938,10 @@
 					"\"$(SRCROOT)/../Chemistry\"",
 					"\"$(SRCROOT)\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "DBD25696-6C7A-4EE5-B295-82F7FC28B8EA";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -4954,8 +4955,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = Biology/Biology.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Theta Computer Services Limited (9RNCM436XC)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Biology/Biology-Prefix.pch";
 				INFOPLIST_FILE = "Biology/Biology-Info.plist";
@@ -4965,9 +4966,10 @@
 					"\"$(SRCROOT)/../Chemistry\"",
 					"\"$(SRCROOT)\"",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "73395603-8716-4CB7-B9F1-93BBC255D386";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
